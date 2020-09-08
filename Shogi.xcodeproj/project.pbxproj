@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEFB46B82501DDDC007D6818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46B72501DDDC007D6818 /* AppDelegate.swift */; };
+		DEFB46BA2501DDDC007D6818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46B92501DDDC007D6818 /* ViewController.swift */; };
+		DEFB46BD2501DDDC007D6818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFB46BB2501DDDC007D6818 /* Main.storyboard */; };
+		DEFB46BF2501DDDD007D6818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB46BE2501DDDD007D6818 /* Assets.xcassets */; };
+		DEFB46C22501DDDD007D6818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFB46C02501DDDD007D6818 /* LaunchScreen.storyboard */; };
+		DEFB46CD2501DDDD007D6818 /* ShogiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46CC2501DDDD007D6818 /* ShogiTests.swift */; };
+		DEFB46DC250205DC007D6818 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46DB250205DC007D6818 /* BoardView.swift */; };
+		DEFB46DE25022615007D6818 /* ShogiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46DD25022615007D6818 /* ShogiPiece.swift */; };
+		DEFB46E025022674007D6818 /* ShogiEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46DF25022674007D6818 /* ShogiEngine.swift */; };
+		DEFB470025029CE9007D6818 /* ShogiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB46FF25029CE9007D6818 /* ShogiDelegate.swift */; };
+		DEFB4706250490EE007D6818 /* ShogiRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB4705250490EE007D6818 /* ShogiRank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEFB46C92501DDDD007D6818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFB46AC2501DDDC007D6818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFB46B32501DDDC007D6818;
+			remoteInfo = Shogi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEFB46B42501DDDC007D6818 /* Shogi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shogi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB46B72501DDDC007D6818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEFB46B92501DDDC007D6818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEFB46BC2501DDDC007D6818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEFB46BE2501DDDD007D6818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFB46C12501DDDD007D6818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEFB46C32501DDDD007D6818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFB46C82501DDDD007D6818 /* ShogiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShogiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB46CC2501DDDD007D6818 /* ShogiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShogiTests.swift; sourceTree = "<group>"; };
+		DEFB46CE2501DDDD007D6818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFB46DB250205DC007D6818 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		DEFB46DD25022615007D6818 /* ShogiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShogiPiece.swift; sourceTree = "<group>"; };
+		DEFB46DF25022674007D6818 /* ShogiEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShogiEngine.swift; sourceTree = "<group>"; };
+		DEFB46FF25029CE9007D6818 /* ShogiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShogiDelegate.swift; sourceTree = "<group>"; };
+		DEFB4705250490EE007D6818 /* ShogiRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShogiRank.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEFB46B12501DDDC007D6818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFB46C52501DDDD007D6818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEFB46AB2501DDDC007D6818 = {
+			isa = PBXGroup;
+			children = (
+				DEFB46B62501DDDC007D6818 /* Shogi */,
+				DEFB46CB2501DDDD007D6818 /* ShogiTests */,
+				DEFB46B52501DDDC007D6818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEFB46B52501DDDC007D6818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEFB46B42501DDDC007D6818 /* Shogi.app */,
+				DEFB46C82501DDDD007D6818 /* ShogiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEFB46B62501DDDC007D6818 /* Shogi */ = {
+			isa = PBXGroup;
+			children = (
+				DEFB46B72501DDDC007D6818 /* AppDelegate.swift */,
+				DEFB46B92501DDDC007D6818 /* ViewController.swift */,
+				DEFB46BB2501DDDC007D6818 /* Main.storyboard */,
+				DEFB46BE2501DDDD007D6818 /* Assets.xcassets */,
+				DEFB46C02501DDDD007D6818 /* LaunchScreen.storyboard */,
+				DEFB46C32501DDDD007D6818 /* Info.plist */,
+				DEFB46DB250205DC007D6818 /* BoardView.swift */,
+				DEFB46DD25022615007D6818 /* ShogiPiece.swift */,
+				DEFB46DF25022674007D6818 /* ShogiEngine.swift */,
+				DEFB46FF25029CE9007D6818 /* ShogiDelegate.swift */,
+				DEFB4705250490EE007D6818 /* ShogiRank.swift */,
+			);
+			path = Shogi;
+			sourceTree = "<group>";
+		};
+		DEFB46CB2501DDDD007D6818 /* ShogiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEFB46CC2501DDDD007D6818 /* ShogiTests.swift */,
+				DEFB46CE2501DDDD007D6818 /* Info.plist */,
+			);
+			path = ShogiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEFB46B32501DDDC007D6818 /* Shogi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFB46D12501DDDD007D6818 /* Build configuration list for PBXNativeTarget "Shogi" */;
+			buildPhases = (
+				DEFB46B02501DDDC007D6818 /* Sources */,
+				DEFB46B12501DDDC007D6818 /* Frameworks */,
+				DEFB46B22501DDDC007D6818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shogi;
+			productName = Shogi;
+			productReference = DEFB46B42501DDDC007D6818 /* Shogi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEFB46C72501DDDD007D6818 /* ShogiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFB46D42501DDDD007D6818 /* Build configuration list for PBXNativeTarget "ShogiTests" */;
+			buildPhases = (
+				DEFB46C42501DDDD007D6818 /* Sources */,
+				DEFB46C52501DDDD007D6818 /* Frameworks */,
+				DEFB46C62501DDDD007D6818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEFB46CA2501DDDD007D6818 /* PBXTargetDependency */,
+			);
+			name = ShogiTests;
+			productName = ShogiTests;
+			productReference = DEFB46C82501DDDD007D6818 /* ShogiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEFB46AC2501DDDC007D6818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ikelab;
+				TargetAttributes = {
+					DEFB46B32501DDDC007D6818 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DEFB46C72501DDDD007D6818 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DEFB46B32501DDDC007D6818;
+					};
+				};
+			};
+			buildConfigurationList = DEFB46AF2501DDDC007D6818 /* Build configuration list for PBXProject "Shogi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEFB46AB2501DDDC007D6818;
+			productRefGroup = DEFB46B52501DDDC007D6818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEFB46B32501DDDC007D6818 /* Shogi */,
+				DEFB46C72501DDDD007D6818 /* ShogiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEFB46B22501DDDC007D6818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFB46C22501DDDD007D6818 /* LaunchScreen.storyboard in Resources */,
+				DEFB46BF2501DDDD007D6818 /* Assets.xcassets in Resources */,
+				DEFB46BD2501DDDC007D6818 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFB46C62501DDDD007D6818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEFB46B02501DDDC007D6818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFB4706250490EE007D6818 /* ShogiRank.swift in Sources */,
+				DEFB46DC250205DC007D6818 /* BoardView.swift in Sources */,
+				DEFB46BA2501DDDC007D6818 /* ViewController.swift in Sources */,
+				DEFB46B82501DDDC007D6818 /* AppDelegate.swift in Sources */,
+				DEFB470025029CE9007D6818 /* ShogiDelegate.swift in Sources */,
+				DEFB46DE25022615007D6818 /* ShogiPiece.swift in Sources */,
+				DEFB46E025022674007D6818 /* ShogiEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFB46C42501DDDD007D6818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFB46CD2501DDDD007D6818 /* ShogiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEFB46CA2501DDDD007D6818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEFB46B32501DDDC007D6818 /* Shogi */;
+			targetProxy = DEFB46C92501DDDD007D6818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEFB46BB2501DDDC007D6818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFB46BC2501DDDC007D6818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEFB46C02501DDDD007D6818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFB46C12501DDDD007D6818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEFB46CF2501DDDD007D6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEFB46D02501DDDD007D6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEFB46D22501DDDD007D6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shogi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seta.Shogi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEFB46D32501DDDD007D6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shogi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seta.Shogi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEFB46D52501DDDD007D6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShogiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seta.ShogiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shogi.app/Shogi";
+			};
+			name = Debug;
+		};
+		DEFB46D62501DDDD007D6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShogiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seta.ShogiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shogi.app/Shogi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEFB46AF2501DDDC007D6818 /* Build configuration list for PBXProject "Shogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFB46CF2501DDDD007D6818 /* Debug */,
+				DEFB46D02501DDDD007D6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFB46D12501DDDD007D6818 /* Build configuration list for PBXNativeTarget "Shogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFB46D22501DDDD007D6818 /* Debug */,
+				DEFB46D32501DDDD007D6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFB46D42501DDDD007D6818 /* Build configuration list for PBXNativeTarget "ShogiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFB46D52501DDDD007D6818 /* Debug */,
+				DEFB46D62501DDDD007D6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEFB46AC2501DDDC007D6818 /* Project object */;
+}
